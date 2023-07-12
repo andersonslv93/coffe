@@ -31,6 +31,28 @@ header h2{
     font-weight: 700;
 }
 
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+}
+
+h1{
+    width: 36vw;
+}
+
+button{
+    background-color: #fca60f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 7vh;
+    width: 19vw;
+    cursor: pointer;
+    font-size: 18px;
+}
+
 @media (max-width:500px){
     header{
         flex-direction: column;
@@ -39,5 +61,8 @@ header h2{
 
     header ul{
         width: 80vw;
+    }
+    main figure{
+        display: none;
     }
 }
